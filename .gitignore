@@ -1,0 +1,49 @@
+# ---------- Secrets / Credentials ----------
+.env
+*.env
+*.pem
+*.key
+*.pfx
+*.crt
+secrets*.json
+
+# ---------- Database / BI connection files ----------
+**/config*.py
+**/credentials*.json
+**/connection*.json
+**/*secret*
+**/*password*
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Power BI ----------
+*.pbix
+*.pbit
+
+# ---------- Data files (avoid real data) ----------
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json
+*.zip
+*.7z
+# ---------- Python ----------
+venv/
+. venv/
+__pycache__/
+*.pyc
+
+# ---------- dbt ----------
+dbt/**/target/
+dbt/**/dbt_packages/
+dbt/**/logs/
+
+# ---------- dbt credentials ----------
+profiles.yml
+
+# ---------- Editors / OS ----------
+.vscode/
+.DS_Store
+Thumbs.db
