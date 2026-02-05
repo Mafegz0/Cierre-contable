@@ -23,8 +23,6 @@ secrets*.json
 
 # ---------- Data files (avoid real data) ----------
 *.csv
-*.xlsx
-*.xls
 *.parquet
 *.json
 *.zip
